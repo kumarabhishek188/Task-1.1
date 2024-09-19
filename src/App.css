@@ -1,0 +1,122 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #121212; 
+  color: #e0e0e0; 
+  padding: 20px;
+  min-height: 100vh; 
+}
+
+.leaderboard {
+  background-color: #1e1e1e; 
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+  border-radius: 10px;
+}
+
+h1 {
+  margin-bottom: 10px;
+  color: #bb86fc; 
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+
+.tab {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #333333; 
+  color: #e0e0e0; 
+  border-radius: 5px;
+  transition: background-color 0.3s; 
+}
+
+.tab.active {
+  background-color: #bb86fc; 
+  color: #ffffff; 
+}
+
+.points {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px; 
+  font-weight: bold;
+  color: #ffffff; 
+}
+
+.profile-card {
+  background-color: #1e1e1e; 
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+  border-radius: 10px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid #bb86fc; 
+  margin-bottom: 10px;
+}
+
+.profile-info {
+  text-align: center;
+}
+
+h2 {
+  font-size: 26px; 
+  margin: 10px 0;
+  color: #ffffff; 
+}
+
+p {
+  font-size: 18px; 
+  color: #a0a0a0; 
+}
+
+.details {
+  margin: 10px 0;
+}
+
+.badge {
+  color: #ffffff; 
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.member-since {
+  display: block;
+  margin: 10px 0;
+  color: #888888; 
+}
+
+.statistics {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.stat-item {
+  background-color: #333333; 
+  padding: 10px;
+  border-radius: 5px;
+  color: #ffffff; 
+  width: 100px; 
+}
+
+.stat-item h3 {
+  margin: 0 0 5px;
+  font-size: 20px; 
+}
+
+.points-detail {
+  margin: 5px 0;
+  font-size: 16px; 
+}
